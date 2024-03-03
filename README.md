@@ -51,3 +51,9 @@ This React and Node.js application, backed by PostgreSQL, manages a dataset of 5
 - Make the code modular and maintainable by organizing it into separate files and folders.
 
 This outline will guide you through building a React and Node.js application with PostgreSQL as the database, incorporating the specified functionalities.
+
+
+
+
+![1](https://github.com/VJSANA/Zithara_CustomerData/assets/136315065/25d0ce90-e5ca-4061-bb4f-81f4f119ee0e)
+
