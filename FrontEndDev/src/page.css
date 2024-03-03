@@ -1,0 +1,71 @@
+.btn-arrow {
+    color: transparent;
+    display: block;
+    position: relative;
+    margin-left: 120px;
+    width: 2rem;
+    height: 2rem;
+
+    background-color: rgba(black, .05);
+
+    transition: all 150ms ease-out;
+
+    &::before,
+    &::after {
+        content: "";
+        display: block;
+        position: absolute;
+            top: 0;
+            left: 0;
+
+        background-color: #606060;
+        
+        transition: all 150ms ease-out;
+    }
+
+    &::before {
+        width: 75%;
+        height: 25%;
+    }
+
+    &::after {
+        width: 25%;
+        height: 75%;
+    }
+
+    &:hover, &:focus {
+        background-color: rgba(black, .1);
+        
+        &::before,
+        &::after {
+            background-color: #404040;
+        }
+    }
+
+    &.btn-arrow-left,
+    &.btn-arrow-right {
+        &::before,
+        &::after {
+            top: 12.5%;
+            left: 12.5%;
+        }
+    }
+
+    &.btn-arrow-left {
+        transform: rotate(-45deg);
+    }
+
+    &.btn-arrow-right {
+        transform: rotate(135deg);
+    }
+}
+.Pagination{
+    display: flex;
+
+}
+.span{
+    margin-left: 110px;
+}
+
+
+
